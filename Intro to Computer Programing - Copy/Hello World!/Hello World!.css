@@ -1,0 +1,16 @@
+#fun{
+    background:-moz-radial-gradient(left,#3300bb,#ff0000,#ffff00,#ffffff,#ffffff);
+}
+h1{
+    color:#80f080;
+}
+#buttoon{
+    width: 345px;
+    height: 490px;
+    background-color: #eeeeee;
+    border-color: #ff0000;
+}
+#pic{
+    width: 331px;
+    height: 480px;
+}

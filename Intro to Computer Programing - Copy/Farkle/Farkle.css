@@ -1,0 +1,74 @@
+/* Remove underline for links*/
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+/* Make background green*/
+html{
+    background: green;
+}
+
+/* Style the link to the home page*/
+#farkleHome{
+    font-size: 60px;
+    font-family: "Harlow Solid","Blackadder ITC","Brush Script MT","Edwardian Script ITC", cursive;
+    font-weight: normal;
+    color: #c83219;
+    font-variant: normal;
+    background:-moz-linear-gradient(right,#6d6,#4c4,#2a2,#008000,#008000);
+}
+
+/* Style links to wiki and game*/
+#homeLink{
+    font-size: 25px;
+    font-family: Algerian;
+}
+
+/* Style buttons*/
+#rollButton{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+}
+#d1{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    font-size: 25px;
+}
+#d2{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    font-size: 25px;
+}
+#d3{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    font-size: 25px;
+}
+#d4{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    font-size: 25px;
+}
+#d5{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    font-size: 25px;
+}
+#d6{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    font-size: 25px;
+}
+#endTurn{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
