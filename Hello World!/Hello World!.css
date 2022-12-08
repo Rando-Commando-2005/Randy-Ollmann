@@ -2,7 +2,11 @@
     background:-moz-radial-gradient(left,#3300bb,#ff0000,#ffff00,#ffffff,#ffffff);
 }
 h1{
+    font-family: "Arial","Calibri";
     color:#80f080;
+    font-weight: 900;
+    -webkit-text-stroke: 1px black;
+    background:-moz-radial-gradient(left,#3300bb,#ff0000,#ffff00,#ffffff,#ffffff);
 }
 #buttoon{
     width: 345px;

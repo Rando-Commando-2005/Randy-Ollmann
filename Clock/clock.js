@@ -59,5 +59,5 @@ function fizzBuzzToggle(){
     } else {
         document.getElementById("fizzBuzz").innerHTML="Turn On FizzBuzz Mode!"              //update button
     }
-    fizzBuzz=((fizzBuzz+1)%2)                                                               //turn 1 to 0 and 0 to 1
-}
+    fizzBuzz=((fizzBuzz+1)%2)                                                               //turn 1 to 0 and 0 to
+}    
