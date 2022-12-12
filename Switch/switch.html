@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head onload="onload()">
+    <link rel="stylesheet" href="switch.css">
+    <script src="switch.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons!!</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <h3>Button Toggle</h3>
+                <p>This button will change the state of an element back and forth on each click.</p>
+                <button onclick="toggle('toggle')">Toggle</button>
+                <p id="toggle" class="example"></p>
+            </td>
+            <td>
+                <h3>Button Cycle</h3>
+                <p>This button will cycle the state of an element through several options.</p>
+                <button onclick="cycle()">Cycle</button>
+                <p id="cycle" class="example"></p>
+            </td>
+            <td>
+                <h3>Switch</h3>
+                <p>This will change the state of an element only if the correct button is pressed.</p>
+                <button onclick="sw('red')">-</button>
+                <button onclick="sw('blue')">O</button>
+                <p id="sw" class="example"></p>
+            </td>
+            <td>
+                <h3>SR nor Latch</h3>
+                <p>These will change the state of an element only if the correct switch is activated.</p>
+                <button id="s" onclick="sSwitch()">S</button>
+                <button id="r" onclick="rSwitch()">R</button>
+                <p id="sr" class="example"></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h3>Funny Button</h3>
+                <p>This button only works if you press the redonkulous button</p>
+                <button id="funny" onclick="funny()">Click for a Funny</button>
+                <p id="humor" class="example"></p>
+            </td>
+            <td>
+                <h3>Redonkulous Button</h3>
+                <p>This button only works if you press the funny button</p>
+                <button id="redonkulous" onclick="redonkulous()">Redonkulousness</button>
+                <p id="humour" class="example"></p>
+            </td>
+            <td>
+                <h3>Exclusive NOR Gate</h3>
+                <p>This only shows red if a or b is not pressed but doesn't show red if both aren't pressed.</p>
+                <button id="xnora" onclick="xnora()">A</button>
+                <button id="xnorb" onclick="xnorb()">B</button>
+                <p id="xnor" class="example"></p>
+            </td>
+            <td>
+                <h3>Smooth Button</h3>
+                <p>This button changes smoothly.</p>
+                <button id="smooth" onmouseup="unsmooth()" onmousedown="smooth()">Smooth Like Butta!</button>
+                <p id="smoothie" class="example"></p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

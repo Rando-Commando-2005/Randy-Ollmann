@@ -1,0 +1,34 @@
+#topLeft{
+    color: white;
+    display: block;
+    height: 100%;
+}
+#pic{
+    height: 600px;
+    object-fit: contain;
+}
+.soundButton{
+    width: 300px;
+    height: 300px;
+    text-align: left;
+    background-color: black;
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: space;
+}
+#kush{
+    background-image: image-set("sunrise-by-the-ocean.webp");
+}
+#morning{
+    background-position: center;
+    background-image: image-set("diary-of-discoveries.webp");
+}
+#dance{
+    background-image: image-set("sunny-side-up.jpg");
+}
+#keith{
+    background-image: image-set("the-persistence-of-memory.jpg");
+}
+#hasten{
+    background-image: image-set("Hästen.webp");
+}
