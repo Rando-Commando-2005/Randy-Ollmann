@@ -15,6 +15,7 @@
     background-size: contain;
     background-position: bottom;
     background-repeat: space;
+    
 }
 #kush{
     background-image: image-set("sunrise-by-the-ocean.webp");
@@ -31,4 +32,9 @@
 }
 #hasten{
     background-image: image-set("Hästen.webp");
+}
+#wander{
+    background-image: image-set("wanderer.jpg");
+    height: 300px;
+    background-size: cover;
 }

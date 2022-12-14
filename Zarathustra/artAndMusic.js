@@ -1,13 +1,6 @@
-function kush() {
-    document.getElementById("all").innerHTML=" <img id=\"pic\" src=\"sunrise-by-the-ocean.webp\"></img><audio controls><source src=\"sprach.mp3\">no audio support</audio>"
-    var mysound = new sound("sprach.mp3");
-    mysound.play();
-};
-
-function sound(src) {
-    this.sound=document.createElement("audio");
-    this.sound.src = src;
-    this.play=function(){
-        this.sound.play();
-    };
-};
+function kush() {document.getElementById("all").innerHTML=" <img id=\"pic\" src=\"sunrise-by-the-ocean.webp\"></img><audio controls><source src=\"sprach.mp3\">no audio support</audio>"};
+function morning() {document.getElementById("all").innerHTML=" <img id=\"pic\" src=\"diary-of-discoveries.webp\"></img><audio controls><source src=\"morningMood.mp3\">no audio support</audio>"};
+function dance() {document.getElementById("all").innerHTML=" <img id=\"pic\" src=\"sunny-side-up.jpg\"></img><audio controls><source src=\"russianDance.mp3\">no audio support</audio>"};
+function keith() {document.getElementById("all").innerHTML=" <img id=\"pic\" src=\"the-persistence-of-memory.jpg\"></img><audio controls><source src=\"keith.mp3\">no audio support</audio>"};
+function hasten() {document.getElementById("all").innerHTML=" <img id=\"pic\" src=\"Hästen.webp\"></img><audio controls><source src=\"hydrogen.mp3\">no audio support</audio>"};
+function wander() {document.getElementById("all").innerHTML=" <img id=\"pic\" src=\"wanderer.jpg\"></img><audio controls><source src=\"going down.mp3\">no audio support</audio>"};
