@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="../Hello World!/Hello World!.css">
+    <script src="benny.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benny's Spaceship Adventure</title>
+</head>
+<h1>Spaceship Controlls</h1>
+<body onload="initiate();">
+    <table>
+        <tr>
+            <td>
+                Relative Velocity:
+            </td>
+            <td id="v">
+                ? m/s
+            </td>
+            <td>
+                With positive towards port
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Distance to Port:
+            </td>
+            <td id="d">
+                ? m
+            </td>
+            <td>
+                Normal to vector pependicular to port plane
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Offset From Port:
+            </td>
+            <td id="offset">
+                ? m
+            </td>
+            <td>
+                Normal to vector paralell to port with starting point in center of port
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Offset From Port Angle:
+            </td>
+            <td id="offsetAngle">
+                ? deg
+            </td>
+            <td>
+                With 0 deg at positive pitch
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Roll Speed:
+            </td>
+            <td id="rollSpeed">
+                ? deg/s
+            </td>
+            <td>
+                Normal to ship's cylindrical axis
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Pitch Speed:
+            </td>
+            <td id="pitchSpeed">
+                ? deg/s
+            </td>
+            <td>
+                Normal to perpendicular to the ship's axis
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Yaw Speed:
+            </td>
+            <td id="yawSpeed">
+                ? deg/s
+            </td>
+            <td>
+                Normal to perpendicular to the ship's axis and pitch vector
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Roll:
+            </td>
+            <td id="roll">
+                ? deg
+            </td>
+            <td>
+                Relative to port
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Pitch:
+            </td>
+            <td id="pitch">
+                ? deg
+            </td>
+            <td>
+                Relative to port
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Yaw:
+            </td>
+            <td id="yaw">
+                ? deg
+            </td>
+            <td>
+                Relative to port
+            </td>
+        </tr>
+    </table>
+    <table id="console">
+        <tr>
+            <td>
+                <h2 style="height: 182px;">Console:</h2>
+            </td>
+            <td id="print">
+                
+            </td>
+        </tr>
+    </table>
+    <img id="integrity" src="rocket.png">
+    <button id="mainThruster" onmousedown="mainThrusterStart()" onmouseup="mainThrusterEnd()" style="position: absolute; left: 1014px; top: 540px; height: 50px; width: 50px; opacity: 0.1;">
+        Main Thruster Engine
+    </button>
+    <button id="reverse" onmousedown="reverseStart()" onmouseup="reverseEnd()" style="position: absolute; left: 1014px; top: 100px; height: 50px; width: 50px; opacity: 0.1;">
+        Reverse Using RCS Engine
+    </button>
+    <button id="twist" onmousedown="twistStart()" onmouseup="twistEnd()" style="position: absolute; left: 1114px; top: 100px; height: 50px; width: 50px; opacity: 0.1;">
+        Twist Using RCS Engine
+    </button>
+    <button id="untwist" onmousedown="untwistStart()" onmouseup="untwistEnd()" style="position: absolute; left: 914px; top: 100px; height: 50px; width: 50px; opacity: 0.1;">
+        Untwist Using RCS Engine
+    </button>
+</body>
+</html>
